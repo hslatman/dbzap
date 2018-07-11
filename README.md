@@ -1,14 +1,15 @@
 # Debezium POC
 
-A simple proof of concept using Debezium and API Platform
+A simple proof of concept with Debezium and API Platform
 
 ## Starting
 
 The topology can be started using docker-compose.
 I've based the docker-compose.yaml file on the example supplied by [Debezium](https://github.com/debezium/debezium-examples/blob/master/tutorial/docker-compose-postgres.yaml).
+Below are the instructions for running the minimal application.
 
 ```bash
-# Set version of Debezium, or set it in a .env file
+# Set version of Debezium, or set it in a .env file (copy it from .env.dist)
 $ export DEBEZIUM_VERSION=0.8
 
 # Starting the topology
